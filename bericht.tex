@@ -1,0 +1,116 @@
+\documentclass[a4paper,11pt]{article}
+
+
+\usepackage[utf8]{inputenc} %damit man auch Umlaute eingeben kann
+\usepackage[bitstream-charter]{mathdesign} % Charter als Standardschriftart
+\usepackage[scaled=.82]{DejaVuSansMono} % DejaVuSansMono als Code-Schriftart
+\usepackage[T1]{fontenc} %damit Umlaute bei einer pdf-Suche auch erkannt werden
+\usepackage{amsfonts,amsmath} %Verwendung von Mathematik-Schriftarten
+\usepackage{graphicx} %für Grafiken der Formate jpg, png, pdf
+\usepackage{float} % um Abbildung wirklich genau dort zu platzieren
+\usepackage{url} %für die gute Darstellung von Internet-Links
+% \usepackage[ngerman]{babel} %deutsches Sprachpaket
+\usepackage[ngerman,english]{babel} %deutsches Sprachpaket
+\usepackage[round]{natbib} %für vereinfachte:wen/Querverweise
+\usepackage{tikz} %für tikz-Grafiken
+\usepackage{paracol}
+\usepackage{subfigure}
+\usepackage{quoting}
+\usepackage{pgfplots}
+\usepackage{capt-of}
+\usepackage{listings} % für Quelltext mit Syntax-Highlighting
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{enumerate}
+\setlength\parindent{0pt}
+
+
+\pgfplotsset{width=0.8\textwidth,compat=1.9}
+
+\lstset{
+	backgroundcolor=\color[HTML]{E8F2F2},
+    breaklines=true,
+	basicstyle=\small\ttfamily,
+	keywordstyle=\color{blue},
+	commentstyle=\color{brown},
+	numbers=left,
+	%numberstyle=\tiny,
+	%frame=leftline,
+	%xleftmargin=.04\textwidth,
+	inputencoding=utf8,
+	extendedchars=true,
+	literate={ä}{{\"a}}1 {à}{{\`a}}1 {ö}{{\"o}}1 {ü}{{\"u}}1 {è}{{\`e}}1 {é}{{\'e}}1}
+
+\lstnewenvironment{pycode}[1][] % für abgesetzten rust code
+{\lstset{
+	language=Python,
+	backgroundcolor=\color[HTML]{E8F2F2},
+    breaklines=ture,
+	basicstyle=\small\ttfamily,
+	keywordstyle=\color{blue},
+	commentstyle=\color{brown},
+	numbers=left,
+	%numberstyle=\tiny,
+	%frame=leftline,
+	%xleftmargin=.04\textwidth,
+	inputencoding=utf8,
+	extendedchars=true,
+	literate={ä}{{\"a}}1 {à}{{\`a}}1 {ö}{{\"o}}1 {ü}{{\"u}}1 {è}{{\`e}}1 {é}{{\'e}}1,
+	#1}}{}
+
+
+\providecommand{\pyinline}{\lstinline[language=Python,basicstyle=\ttfamily,keywordstyle=\color{blue},commentstyle=\color{brown}, literate={ä}{{\"a}}1 {à}{{\`a}}1 {ö}{{\"o}}1 {ü}{{\"u}}1 {è}{{\`e}}1 {é}{{\'e}}1]} % für Inline-C++ Code
+
+% Useful packages
+\title{RLC}
+\author{Gian Laager and Sebastian Rast}
+
+
+\begin{document}
+
+\maketitle
+\begin{appendix}
+  \begin{figure}[H]
+    \centering
+    \input{figures/scnpe_hmpuls4nognd.csv.pgf}
+    \caption{\label{fig:label} }
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \input{figures/scnpe_hmpuls4nognd1.csv.pgf}
+    \caption{\label{fig:label} }
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \input{figures/scnpe_hmpuls4nognd2.csv.pgf}
+    \caption{\label{fig:label} }
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \input{figures/scnpe_impuls1.csv.pgf}
+    \caption{\label{fig:label} }
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \input{figures/scnpe_impuls2.csv.pgf}
+    \caption{\label{fig:label} }
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \input{figures/scnpe_impuls3.csv.pgf}
+    \caption{\label{fig:label} }
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \input{figures/scnpe_minus.csv.pgf}
+    \caption{\label{fig:label} }
+  \end{figure}
+
+\end{appendix}
+
+\end{document}
