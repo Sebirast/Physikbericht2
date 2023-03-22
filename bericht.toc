@@ -1,0 +1,11 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Goal}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Hypothesis}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Theoretical Background}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}How does a LC circuit work?}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Bandstop filter}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Experimental arrangement}{2}{section.3}%
+\contentsline {section}{\numberline {4}Analysis}{3}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{3}{section.5}%
+\contentsline {section}{\numberline {A}Additional Plots}{3}{appendix.A}%

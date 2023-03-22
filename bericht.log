@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.26)  20 MAR 2023 13:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.26)  22 MAR 2023 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,6 +1146,41 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 13.82408pt on input line 72.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 13.82408pt on input line 72.
+ (./bericht.toc
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 2.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 3.
+)
+\tf@toc=\write5
+\openout5 = `bericht.toc'.
+
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 77.
+<images/2560px-LC_parallel_simple.svg.png, id=65, 2569.6pt x 1884.03876pt>
+File: images/2560px-LC_parallel_simple.svg.png Graphic file (type png)
+<use images/2560px-LC_parallel_simple.svg.png>
+Package pdftex.def Info: images/2560px-LC_parallel_simple.svg.png  used on inpu
+t line 85.
+(pdftex.def)             Requested size: 216.0022pt x 158.37317pt.
+
 (./figures/scnpe_hmpuls4nognd.csv.pgf
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
 (Font)              scaled to size 11.37706pt on input line 92.
@@ -1194,67 +1229,65 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 4.80003pt on input line 92.
 )
-Overfull \hbox (102.52756pt too wide) in paragraph at lines 1126--75
+Overfull \hbox (102.52756pt too wide) in paragraph at lines 1126--107
  [][] 
  []
 
+[2 <./images/2560px-LC_parallel_simple.svg.png>]
 (./figures/scnpe_hmpuls4nognd1.csv.pgf)
-Overfull \hbox (102.52756pt too wide) in paragraph at lines 1246--81
+Overfull \hbox (102.52756pt too wide) in paragraph at lines 1246--113
  [][] 
  []
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./figures/scnpe_hmpuls4nognd2.csv.pgf)
-Overfull \hbox (102.52756pt too wide) in paragraph at lines 1133--87
+[3] (./figures/scnpe_hmpuls4nognd2.csv.pgf)
+Overfull \hbox (102.52756pt too wide) in paragraph at lines 1133--119
  [][] 
  []
 
-[2] (./figures/scnpe_impuls1.csv.pgf)
-Overfull \hbox (102.52756pt too wide) in paragraph at lines 987--93
+[4] (./figures/scnpe_impuls1.csv.pgf)
+Overfull \hbox (102.52756pt too wide) in paragraph at lines 987--125
  [][] 
  []
 
-[3] (./figures/scnpe_impuls2.csv.pgf)
-Overfull \hbox (102.52756pt too wide) in paragraph at lines 988--99
+[5] (./figures/scnpe_impuls2.csv.pgf)
+Overfull \hbox (102.52756pt too wide) in paragraph at lines 988--131
  [][] 
  []
 
-[4] (./figures/scnpe_impuls3.csv.pgf)
-Overfull \hbox (102.52756pt too wide) in paragraph at lines 1063--105
+[6] (./figures/scnpe_impuls3.csv.pgf)
+Overfull \hbox (102.52756pt too wide) in paragraph at lines 1063--137
  [][] 
  []
 
-[5] (./figures/scnpe_minus.csv.pgf)
-Overfull \hbox (102.52756pt too wide) in paragraph at lines 3120--111
+[7] (./figures/scnpe_minus.csv.pgf)
+Overfull \hbox (102.52756pt too wide) in paragraph at lines 3120--143
  [][] 
  []
 
-[6] [7] (./bericht.aux)
+[8] [9] (./bericht.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `bericht.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 92DCE23514B5484BFCFDA58C95363B24;1255.
  ) 
 Here is how much of TeX's memory you used:
- 35353 strings out of 478238
- 791935 string characters out of 5850456
- 1305360 words of memory out of 5000000
- 52958 multiletter control sequences out of 15000+600000
- 500574 words of font info for 97 fonts, out of 8000000 for 9000
+ 35415 strings out of 478238
+ 792886 string characters out of 5850456
+ 1305987 words of memory out of 5000000
+ 52993 multiletter control sequences out of 15000+600000
+ 514224 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,7n,89p,770b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
 exmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/share/texmf-dist/fonts/type1/b
-itstrea/charter/bchr8a.pfb></usr/share/texmf-dist/fonts/type1/public/mathdesign
-/mdbch/md-chr7y.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000
-.pfb>
-Output written on bericht.pdf (7 pages, 79759 bytes).
+itstrea/charter/bchb8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/
+bchr8a.pfb></usr/share/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
+Output written on bericht.pdf (9 pages, 122521 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
