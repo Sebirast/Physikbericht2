@@ -12,8 +12,10 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{enumerate}
+\setlength\parindent{0pt}
 
-\title{LC circuits}
+\title{Bandstop filters and }
 \author{Gian Laager and Sebastian Rast}
 
 \begin{document}
@@ -26,23 +28,70 @@
 
 \section{Theoretical Background}
 \subsection{How does a LC circuit work?}
+A LC circuit has the ability to oscillate on is own i.e. it can produce a current that looks like some kind of sin-wave over time. This feature is provided by the interaction of a coil and a capacitor. The circuit has to be assembled according to the circuit in fig. \ref{fig:lc}.
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.6\textwidth]{images/2560px-LC_parallel_simple.svg.png}
-    \caption{Schematics of a LC circuit}
-    \label{fig:my_label}
+    \includegraphics[width=0.5\textwidth]{images/2560px-LC_parallel_simple.svg.png}
+    \caption{Schematic of a LC circuit}
+    \label{fig:lc}
 \end{figure}
 
+In principle a LC circuit works as following:
+\begin{enumerate}[I.]
+    \item At the beginning the capacitor is charged and a voltage can be measured over the capacitor. All the energy is stored in the capacitor.
+    \item Because of the voltage, current flows from the capacitor to the inductor and the inductor is charged.
+    \item The charging of the inductor leads to a magnetic field produced by the coil. According to the Lenz rule this magnetic field acts against the flowing current. Thus the increase of the current happens slowly at the beginning. At the end though, the current increases with the magnetic field until a maximum is reached. At this time the capacitor is fully discharged and the energy is stored in the inductor.
+    \item After the current has reached its maximum it will slowly decrease and the magnetic field is dissipated. Hence no voltage is applied to the inductor. 
+    \item The current flows on and charges the capacitor until all of the energy is transferred to the capacitor. 
+    \item The same cycle starts again just with a negative voltage.
+\end{enumerate}
+
 \subsection{Bandstop filter}
+A bandstop filter has the ability to pass almost all frequencies but filter very specific frequencies (= bands) (see fig.\ref{fig:bsf}). Bandstop filters are used in various applications as for example guitar amplifiers or the Raman spectroscopy.
 
-
-
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/2880px-Ideal_Band_Stop_Filter_Transfer_Function.svg.png}
+    \caption{Fourrier Transformation of the angular frequency spectrum of a bandstop filter.}
+    \label{fig:bsf}
+\end{figure}
 
 \section{Experimental arrangement}
-schema
+The following materials are necessary to conduct the experiment:
+\begin{itemize}
+    \item oscilloscope that can generate waves
+    \item breadboard and jumper cables
+    \item 1k$\Omega$, 200$\Omega$, 10k$\Omega$ resistors
+    \item 100$\mu$F, 220$\mu$F, 47$\mu$F capacitors
+    \item one 6H inductor
+    \item cables to connect the oscilloscope to the circuit
+\end{itemize}
+
+The circuit has to be assembled according to the following schematic (fig. \ref{fig:schematic}). We did different measurements with the different electrical components from above. 
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/Screenshot 2023-04-05 at 21.19.41.png}
+    \caption{Schematic}
+    \label{fig:schematic}
+\end{figure}
+
+\subsection{Measurement process}
+We conducted an impulse response analysis. With this type of analysis one sends a very short electrical pulse through a system and watches how the system reacts to this signal. In LC-circuits the short electrical pulse leads to the charging of the capacitor and thus to a oscillating circuit. The oscillation is damped by a resistor so that the oscillation stops until the next pulse arrives.
 
 \section{Analysis}
+
+\subsection{Observations}
+We could observe strange behaviour when the Measuring Point GND (see fig. \ref{fig:schematic}) was not connected to the circuit. The measured signal oscillated way more than when the pin was connectd.
+
+
+\subsection{Error discussion}
+
+\begin{itemize}
+    \item 
+\end{itemize}
+
 
 \section{Conclusion}
 
